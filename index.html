@@ -4,35 +4,65 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
     <title>Landing Page</title>
 </head>
 <body>
+    <div class="first-background">
+    <div class="header">
     <h3>Header Logo</h3>
-    <div>
-        <a ref="#">header link one</a>
-        <a ref="#">header link two</a>
-        <a ref="#">header link three</a>
-    </div>
-    <div>
-        <h1>This website is awesome!</h1>
-            <p>This will be a page to showcase my projects and skills</p>
-            <img src="images/coding.jpg" alt="generic computer screen with written code displayed" style="width: 500px; height: 500px">
-    </div>
-    <div>
-        <h2>Some random information.</h2>
-            <img>
-                <p>random text under photo</p>
-            <img>
-                <p>random text under photo</p>
-    </div>
-    <div>
-        <p>I have no special talent. I am only passionately curious. -Albert Einstein</p>
-    </div>
-    <div>
-        <div>
-            Call to action! It's time! Sign up for our product by clicking that button right over there!
+        <div class="header-links">
+            <a ref="#">header link one</a>
+            <a ref="#">header link two</a>
+            <a ref="#">header link three</a>
         </div>
     </div>
-    <footer>Copyright &#169 The Odin Project 2022</footer>
+    <div class="hero-div">
+        <div class="hero-main-div">
+            <h1 class="hero-main">This is my website!</h1>
+            <p class="hero-secondary">This will be a page to showcase my projects and skills as a software developer.</p>
+        </div>
+    
+        <div class="hero-image">
+            <img src="images/coding.jpg" alt="generic computer screen with written code displayed" style="width: 500px; height: 500px">  
+        </div>
+    </div>
+    </div>
+    <!--Some Random Info About Myself-->
+    <div class="about-me">
+        <h2>Some random information.</h2>
+            <div class="random-container">
+                <div class="photo">
+                    <img src="images/travel.jpg" alt="looking out of an airplane" style="width: 225px; height: 150px">               
+                        <p class="places">I love traveling to new places!</p>
+                </div>
+                <div>
+                    <img src="images/sports.jpg" alt="basketball goal" style="width: 225px; height: 150px">
+                        <p>I love sports!</p>
+                </div>
+                <div>
+                    <img src="images/classic-cars.jpg" alt="classic car" style="width: 225px; height: 150px" >
+                        <p>I love classic cars!</p>
+                </div>
+                <div>
+                    <img src="images/video-games.jpg" alt="classic car" style="width: 225px; height: 150px" >
+                        <p>I love video games!</p>
+                </div>
+            </div>
+    </div>
+    <!--Quote-->
+    <div class="second-background">
+        <p class="quote">I have no special talent. I am only passionately curious.</p>
+        <p class="quote-by">-Albert Einstein</p>
+    </div>
+    <div class="skills-header">
+        <div>
+            <p class="skills">Skills</p>
+                    <img src="images/html.png" alt="hmtl logo" width="75px" height="90px">         
+                    <img src="images/css.png" alt="hmtl logo" width="75px" height="90px">
+                    <img src="images/git.png" alt="hmtl logo" width="75px" height="90px">
+        </div>
+    </div>
+    <footer>Copyright &#169 Sean Harmond 2022</footer>
 </body>
 </html>

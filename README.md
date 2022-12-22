@@ -1,2 +1,4 @@
 # landing-page
-Working through the Odin Project curriculum, I am creating a landing page using HTML and CSS.
+Portfolio landing page to showcase my work!
+
+Using HTML and CSS initially, this will be a work in progress.
